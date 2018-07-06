@@ -17,7 +17,7 @@ while(is_triangular == False and (number1 * number2 * number3) < n):
     if((number1 * number2 * number3) == n):
         is_triangular = True
 
-if(is_triangular):
+if (is_triangular):
     print("%d * %d * %d = %d" %(number1, number2, number3, n))
     print("Verdadeiro")
 
