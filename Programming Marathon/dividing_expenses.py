@@ -1,5 +1,5 @@
 """
- developed by Waleska
+ developed by Walesca <3
 """
 
 a = 0
