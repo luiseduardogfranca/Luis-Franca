@@ -1,0 +1,9 @@
+package questao4;
+
+public class Novo extends Imovel{
+	private float adicionarPreco; 
+	
+	public float getAdicionarPreco() {
+		return adicionarPreco;
+	}
+}

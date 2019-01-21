@@ -1,0 +1,8 @@
+package polimorfismo.questao2;
+
+public class Atendente extends Funcionario{
+	
+	public String toString() {
+		return getNome() + " é atendente";
+	}
+}

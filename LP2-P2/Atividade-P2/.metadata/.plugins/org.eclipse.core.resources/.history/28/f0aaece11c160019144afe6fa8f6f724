@@ -1,0 +1,12 @@
+package polimorfismo.questao2;
+
+public class Main {
+	public static void main(String[] args) {
+		Funcionario obj1 = new Funcionario();
+		
+		Gerente a = new Gerente();
+		
+		obj1.setFuncao("Gerente");
+		obj1.realizarLogin("eduardo@gmail.com", "ola");
+	}
+}

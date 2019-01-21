@@ -1,0 +1,22 @@
+package questao1;
+
+public class Vendedor extends Empregado {
+	private float percentualComissao; 
+		
+	public float getPercentualComissao() {
+		return percentualComissao;
+	}
+	
+	public void setPercentualComissao(float percentual) {
+		this.percentualComissao = percentual; 
+	}
+	
+	@Override
+	public String toString() {
+		return "";
+	}
+	
+	public float calcularSalario() {
+		
+	}
+}

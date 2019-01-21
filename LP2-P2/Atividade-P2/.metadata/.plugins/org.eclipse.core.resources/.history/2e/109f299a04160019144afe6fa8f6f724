@@ -1,0 +1,9 @@
+package questao4;
+
+public class Velho extends Imovel {
+	private float descontoPreco;
+	
+	public float getDescontoPreco() {
+		return descontoPreco;
+	}
+}

@@ -1,0 +1,15 @@
+package polimorfismo.questao2;
+
+public class Main {
+	public static void main(String[] args) {
+		Funcionario obj1 = new Funcionario();
+		
+		Gerente a = new Gerente();
+		
+		obj1.setFuncao("Gerente");
+		String tipo = obj1.realizarLogin(0, "ola");
+		if(tipo.equals("Gerente")) {
+			Gerente ob = (Gerente) obj1; 
+		}
+	}
+}

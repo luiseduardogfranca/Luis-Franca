@@ -1,0 +1,18 @@
+package heranca.questao4;
+
+public class Novo extends Imovel{
+	private float adicionalPreco; 
+	
+	public float getadicionalPreco() {
+		return adicionalPreco;
+	}
+	
+	public void setAdicionalPreco(float adicional) {
+		this.adicionalPreco = adicional;
+	}
+	
+	@Override
+	public String toString() {
+		return "Preço: R$" + getPreco() + "\nAdicional: R$" + getadicionalPreco();
+	}
+}

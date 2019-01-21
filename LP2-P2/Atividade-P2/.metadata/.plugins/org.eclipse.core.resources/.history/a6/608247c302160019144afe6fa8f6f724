@@ -1,0 +1,15 @@
+package questao3;
+
+public class Recursivo implements Fatorial{
+	@Override
+	public int calcular(int valor) {
+		System.out.println(valor);
+		if (valor == 1) {
+			return 0;
+			
+		}else {
+			int aux = valor * (valor - 1);
+			return aux + calcular(valor - 1); 
+		}
+	}
+}

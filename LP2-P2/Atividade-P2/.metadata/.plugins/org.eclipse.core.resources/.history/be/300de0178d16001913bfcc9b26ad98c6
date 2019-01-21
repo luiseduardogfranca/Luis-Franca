@@ -1,0 +1,5 @@
+package polimorfismo.questao4;
+
+public abstract class Mamifero extends Animal{
+	
+}

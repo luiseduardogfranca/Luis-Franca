@@ -1,0 +1,11 @@
+package questao2;
+
+public class Main {
+	public static void main(String[] args) {
+		Gerente gerente = new Gerente();
+		Vendedor vendedor = new Vendedor("Luís", 1000, 5);
+		
+		System.out.println(vendedor);
+		System.out.println(gerente);
+	}
+}

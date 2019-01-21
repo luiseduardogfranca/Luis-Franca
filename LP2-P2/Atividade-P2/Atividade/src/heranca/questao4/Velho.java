@@ -1,0 +1,18 @@
+package heranca.questao4;
+
+public class Velho extends Imovel {
+	private float descontoPreco;
+	
+	public float getDescontoPreco() {
+		return descontoPreco;
+	}
+	
+	public void setDescontoPreco(float desconto) {
+		this.descontoPreco = desconto; 
+	}
+	
+	@Override
+	public String toString() {
+		return "Preço: R$" + getPreco() + "\nDesconto: R$" + getDescontoPreco();
+	}
+}

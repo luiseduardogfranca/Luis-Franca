@@ -1,0 +1,17 @@
+package heranca.questao4;
+
+public class Main {
+	public static void main(String[] args) {
+		Velho imovel1 = new Velho();
+		Novo imovel2 = new Novo();
+		
+		imovel1.setPreco(300000);
+		imovel1.setDescontoPreco(1000);
+		
+		imovel2.setPreco(300000);
+		imovel2.setAdicionalPreco(29000);
+		
+		System.out.println(imovel1);
+		System.out.println(imovel2);
+	}
+}

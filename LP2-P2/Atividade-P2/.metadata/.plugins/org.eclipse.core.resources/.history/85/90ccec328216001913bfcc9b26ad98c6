@@ -1,0 +1,6 @@
+package polimorfismo.questao2;
+
+public abstract class Operacao {
+	public abstract float calcular(float num1, float num2);
+	public abstract void calcular(List<float> numeros);
+}

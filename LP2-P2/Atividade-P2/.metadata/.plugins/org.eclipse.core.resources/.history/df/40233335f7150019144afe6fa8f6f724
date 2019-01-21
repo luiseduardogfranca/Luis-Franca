@@ -1,0 +1,10 @@
+package questao1;
+
+public class Empregado {
+	private String nome; 
+	protected float salario; 
+	
+	public String getNome(){
+		return nome; 
+		}
+}

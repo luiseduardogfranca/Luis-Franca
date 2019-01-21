@@ -1,0 +1,18 @@
+package questao1;
+
+public class Vendedor {
+	private float percentualComissao; 
+		
+	public float getPercentualComissao() {
+		return percentualComissao
+	}
+	
+	public void setPercentualComissao(float percentual) {
+		this.percentualComissao = percentual; 
+	}
+	
+	@Override
+	public String toString() {
+		return "";
+	}
+}

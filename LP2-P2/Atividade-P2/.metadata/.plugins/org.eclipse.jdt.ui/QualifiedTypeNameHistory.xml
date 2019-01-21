@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="questao1.IngressoVip"/>
+<fullyQualifiedTypeName name="questao1.Empregado"/>
+<fullyQualifiedTypeName name="questao2.Vendedor"/>
+<fullyQualifiedTypeName name="questao3.NaoRecursivo"/>
+<fullyQualifiedTypeName name="questao3.Fatorial"/>
+<fullyQualifiedTypeName name="questao3.Recursivo"/>
+<fullyQualifiedTypeName name="questao4.Imovel"/>
+<fullyQualifiedTypeName name="polimorfismo.questao1.Funcionario"/>
+<fullyQualifiedTypeName name="polimorfismo.questao2.Gerente"/>
+<fullyQualifiedTypeName name="polimorfismo.questao2.Funcionario"/>
+<fullyQualifiedTypeName name="polimorfismo.questao2.Atendente"/>
+<fullyQualifiedTypeName name="polimorfismo.questao2.Operacao"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="polimorfismo.questao3.Subtracao"/>
+<fullyQualifiedTypeName name="polimorfismo.questao3.Operacao"/>
+<fullyQualifiedTypeName name="polimorfismo.questao3.Multiplicacao"/>
+<fullyQualifiedTypeName name="polimorfismo.questao3.Divisao"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="polimorfismo.questao4.Mamifero"/>
+<fullyQualifiedTypeName name="polimorfismo.questao4.Macaco"/>
+<fullyQualifiedTypeName name="polimorfismo.questao4.Aguia"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="polimorfismo.questao4.Cachorro"/>
+<fullyQualifiedTypeName name="polimorfismo.questao5.Chefe"/>
+<fullyQualifiedTypeName name="polimorfismo.questao5.TrabalhadorPecaProduzida"/>
+<fullyQualifiedTypeName name="polimorfismo.questao5.TrabalhadorComissionado"/>
+<fullyQualifiedTypeName name="polimorfismo.questao5.TrabalhadorHora"/>
+</qualifiedTypeNameHistroy>

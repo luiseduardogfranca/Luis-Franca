@@ -1,0 +1,14 @@
+package questao3;
+
+public class NaoRecursivo implements Fatorial {
+	
+	@Override
+	public void Calcular(int valor) {
+		
+		for (int count = valor - 1; count > 0; count --) {
+			valor *= count; 
+		}
+		
+		System.out.println(valor);
+	}
+}

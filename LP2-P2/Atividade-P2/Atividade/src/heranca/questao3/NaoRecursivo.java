@@ -1,0 +1,14 @@
+package heranca.questao3;
+
+public class NaoRecursivo implements Fatorial {
+	
+	@Override
+	public int calcular(int valor) {
+		
+		for (int count = valor - 1; count > 0; count --) {
+			valor *= count; 
+		}
+		
+		return valor; 
+	}
+}

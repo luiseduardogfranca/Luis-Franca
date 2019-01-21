@@ -1,0 +1,18 @@
+package questao1;
+
+public class Main {
+	public static void main (String[] args) {
+		
+//		IngressoVip obj1 = new IngressoVip();
+//		Ingresso obj2 = obj1; 
+//		
+//		obj1.setValor(10);
+//		obj1.setValorAdicional(2);
+//		
+//		
+//		System.out.println(obj2);
+//		System.out.println(obj1);
+		
+		System.out.println("Valor do ingresso Vip: R$");
+	}
+}

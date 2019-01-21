@@ -1,0 +1,11 @@
+package questao4;
+
+public class RadioRelogio implements Radio, Relogio{
+	private String horario; 
+	private String despertar; 
+	private String horarioAlarme; 
+	private String emissora; 
+	private String tipoEmissora; 
+	private String volumeRadio; 
+	private String volumeRelogio;
+}

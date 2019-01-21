@@ -1,0 +1,19 @@
+package polimorfismo.questao5;
+
+public class Chefe extends Empregado{
+	private double salarioMensal; 
+	
+	@Override
+	public float calcularGanho() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public double getSalarioMensal() {
+		return salarioMensal;
+	}
+	
+	public void setSalarioMensal(double salarioMensal) {
+		this.salarioMensal = salarioMensal;
+	}
+}

@@ -1,0 +1,23 @@
+package encapsulamento.questao4;
+
+import java.util.ArrayList;
+
+public class Agenda {
+	ArrayList<Nota> notas; 
+	
+	
+	public void adicionar(String dono, String texto) {
+		Nota nota = new Nota(dono, texto);
+		notas.add(nota);
+	}
+	
+	public boolean remover(Nota nota) {
+		return notas.remove(nota);
+	}
+	
+	public void atualizar(int indexNota, String dono, String texto) {
+		Nota nota = notas.get(indexNota);
+		nota.setDono(dono);
+		nota.setTexto(texto);
+	}
+}

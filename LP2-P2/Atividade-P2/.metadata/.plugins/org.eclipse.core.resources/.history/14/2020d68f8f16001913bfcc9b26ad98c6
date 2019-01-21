@@ -1,0 +1,5 @@
+package polimorfismo.questao5;
+
+public abstract class Empregado {
+
+}

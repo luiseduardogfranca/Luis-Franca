@@ -1,0 +1,19 @@
+package questao1;
+
+public class IngressoVip extends Ingresso {
+	
+	public float valorAdicional; 
+	
+	public void setValorAdicional(float valor) {
+		this.valorAdicional = valor; 
+	}
+	
+	public float getValorAdicional() {
+		return valorAdicional;
+	}
+	
+	public String toString() {
+		return "Valor: R$" + getValorAdicional() + getValor(); 
+	}
+
+}

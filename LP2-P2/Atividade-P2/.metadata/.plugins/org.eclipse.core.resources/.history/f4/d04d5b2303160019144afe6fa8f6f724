@@ -1,0 +1,14 @@
+package questao3;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		NaoRecursivo obj1 = new NaoRecursivo();
+//		obj1.calcular(5);
+		
+		Recursivo obj2 = new Recursivo();
+		System.out.println(obj2.calcular(5));
+	}
+
+}

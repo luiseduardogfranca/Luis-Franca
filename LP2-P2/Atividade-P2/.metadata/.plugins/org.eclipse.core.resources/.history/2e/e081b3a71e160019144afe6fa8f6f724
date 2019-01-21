@@ -1,0 +1,18 @@
+package polimorfismo.questao2;
+
+public class Main {
+	public static void main(String[] args) {
+		Funcionario obj; 
+		
+		String funcao = "Gerente"; 
+		String nome = "Eduardo";
+		
+		if(funcao.equals("Eduardo")){
+			obj = new Gerente();
+		}else {
+			obj = new Atendente(); 
+		}
+		
+		System.out.println(obj);
+	}
+}
