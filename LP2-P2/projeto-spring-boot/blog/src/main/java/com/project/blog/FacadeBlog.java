@@ -13,7 +13,6 @@ import com.project.blog.repository.RentalPlanRepository;
 import com.project.blog.repository.ScoreRepository;
 import com.project.blog.repository.UserRepository;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration

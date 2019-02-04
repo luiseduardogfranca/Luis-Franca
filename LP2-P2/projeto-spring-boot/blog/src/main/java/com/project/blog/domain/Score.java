@@ -18,7 +18,7 @@ public class Score{
     private int score;
     private int amountRent; 
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "user_id")
     private User user; 
 
@@ -39,6 +39,10 @@ public class Score{
 
     public int getScore() {
         return score;
+    }
+
+    public User getUser() {
+        return user;
     }
 
     public void setAmountRent(int amountRent) {

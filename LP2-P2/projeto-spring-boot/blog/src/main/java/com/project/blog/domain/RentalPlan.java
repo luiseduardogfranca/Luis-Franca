@@ -22,7 +22,7 @@ public class RentalPlan{
     private String description; 
     private double price;
     
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "local_id")
     private Local local;
 
@@ -50,6 +50,10 @@ public class RentalPlan{
 
     public double getPrice() {
         return price;
+    }
+
+    public Local getLocal() {
+        return local;
     }
 
     public void setDescription(String description) {

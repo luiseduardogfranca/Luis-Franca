@@ -25,7 +25,7 @@ public class Local{
 
     // relationship
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "address_id")
     private Address address;
 
@@ -60,6 +60,10 @@ public class Local{
         return totalGain;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
     public void setDescription(String description) {
         this.description = description;
     }
@@ -71,4 +75,9 @@ public class Local{
     public void setTotalGain(double totalGain) {
         this.totalGain = totalGain;
     }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
 }

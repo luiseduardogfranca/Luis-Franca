@@ -26,7 +26,7 @@ public class User{
     private String phone; 
     private String gender;
     
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "local_id")
     private Local local; 
     
@@ -69,6 +69,10 @@ public class User{
 
     public Date getBirthDate() {
         return birthDate;
+    }
+
+    public Local getLocal() {
+        return local;
     }
 
     public void setBirthDate(Date birthDate) {

@@ -30,11 +30,11 @@ public class UserRentalPlan{
     private int amountRent; 
     private String status; 
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "user_id")
     private User user;  
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     @JoinColumn(name = "rental_plan_id")
     private RentalPlan rentalPlan; 
 
@@ -62,6 +62,14 @@ public class UserRentalPlan{
 
     public String getStatus() {
         return status;
+    }
+
+    public RentalPlan getRentalPlan() {
+        return rentalPlan;
+    }
+
+    public User getUser() {
+        return user;
     }
 
     public void setAmountRent(int amountRent) {
