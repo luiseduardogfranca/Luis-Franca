@@ -2,13 +2,16 @@ package com.project.blog.resource;
 
 import java.net.URI;
 import java.util.List;
+import java.util.Optional;
 
 import com.project.blog.domain.RentalPlan;
 import com.project.blog.repository.RentalPlanRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,5 +36,17 @@ public class RentalPlanResource{
                 .toUri();
 
         return ResponseEntity.created(uri).body(rentalPlanSaved);
+    }
+
+    @DeleteMapping("/rental_plan/{id}")
+    public ResponseEntity deleteAddress(@PathVariable int id) {
+
+        Optional<RentalPlan> rentalPlan = rentalPlanRepository.findById(id);
+
+        if (rentalPlan.isPresent()) {
+            rentalPlanRepository.deleteById(id);
+        }
+
+        return ResponseEntity.accepted().build();
     }
 }
